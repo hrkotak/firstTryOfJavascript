@@ -1,3 +1,14 @@
+//4th part
+
+//$(selector).action()
+$("p").css("background", "blue");
+$('p').html('<strong>hello world</strong>');
+$('button').click(() => {
+    $('.second').toggleClass('hidden');
+})
+
+
+// first to third part
 console.log("Javascript is working!");
 
 let colors = ["orange", "blue", "green", "purple"];
